@@ -1,7 +1,8 @@
 package id.hangga;
+
 import java.util.Arrays;
 
-public class Main {
+public class ShallowCopy {
     public static void main(String[] args) {
         String[] friends = {"Alice", "Bob", "Charlie"};
         Person originalPerson = new Person("David", friends);
